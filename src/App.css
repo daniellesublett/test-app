@@ -82,3 +82,12 @@
   margin: 25px;
   font-weight: bold;
 }
+
+.prev-next-buttons:disabled {
+  background-color: #b9ebe1;
+  color: rgb(191, 189, 189);
+  border: none;
+  padding: 12px 15px;
+  margin: 25px;
+  font-weight: bold;
+}

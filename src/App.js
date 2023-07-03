@@ -41,13 +41,13 @@ function App() {
   return (
     <div>
       <button 
-        class='prev-next-buttons' 
+        className='prev-next-buttons' 
         onClick={handlePreviousPage} 
         disabled={currentPage === 0}>
           Previous 10
       </button>
       <button
-        class='prev-next-buttons' 
+        className='prev-next-buttons' 
         onClick={handleNextPage}
         disabled={endIndex >= posts.length}
       >
